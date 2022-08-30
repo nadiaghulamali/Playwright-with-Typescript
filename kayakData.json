@@ -1,0 +1,92 @@
+{
+  "allCases":
+{
+  "TestCase1":
+    {
+      "originInput": "Lahore, Pakistan (LHE)",
+      "destinationInput": "Dubai (DXB)",
+      "originValue":"Lahore (LHE)",
+      "destinationValue":"Dubai (DXB)",
+      "passengers": {
+        "adults": 4,"seniors" : 0, "youth" :0,"child": 0,"seatInfant": 0, "lapInfant": 0
+      },
+      "departure": "September 22",
+      "arrival": "October 22",
+      "departureDate":"Thu 9/22",
+      "arrivalDate":"Sat 10/22"
+      
+    },
+    "TestCase2":
+    {
+      "originInput": "Baku, Azerbaijan (BAK)",
+      "destinationInput": "Dubai (DXB)",
+      "originValue":"Baku (BAK)",
+      "destinationValue":"Dubai (DXB)",
+      "passengers": {
+        "adults": 2,"seniors" : 1, "youth" :1,"child": 1,"seatInfant": 0, "lapInfant": 0
+      },
+      "departure": "September 22",
+      "arrival": "November 22",
+      "departureDate":"Thu 9/22",
+      "arrivalDate":"Tue 11/22"
+    },
+      "TestCase3":
+      {
+        "originInput": "Istanbul, Turkey (IST)",
+        "destinationInput": "Mulu, Malaysia (MZV)",
+        "originValue":"Istanbul (IST)",
+        "destinationValue":"Mulu (MZV)",
+        "passengers": {
+          "adults": 2,"seniors" : 2, "youth" :2,"child": 2,"seatInfant": 0, "lapInfant": 0
+        },
+        "departure": "October 22",
+        "arrival": "November 22",
+        "departureDate":"Sat 10/22",
+        "arrivalDate":"Tue 11/22"
+      
+      },
+       "TestCase4":
+      {
+        "originInput": "Karachi, Pakistan (KHI)",
+        "destinationInput": "Islamabad, Pakistan (ISB)",
+        "originValue":"Karachi (KHI)",
+        "destinationValue":"Islamabad (ISB)",
+        "passengers": {
+          "adults": 4,"seniors" : 0, "youth" :0,"child": 1,"seatInfant": 1, "lapInfant": 1
+        },
+        "departure": "September 22",
+        "arrival": "October 22",
+        "departureDate":"Thu 9/22",
+        "arrivalDate":"Sat 10/22"
+      },
+      "TestCase5":
+      {
+        "originInput": "Karachi, Pakistan (KHI)",
+        "destinationInput": "Islamabad, Pakistan (ISB)",
+        "originValue":"Karachi (KHI)",
+        "destinationValue":"Islamabad (ISB)",
+        "passengers": {
+          "adults": 4,"seniors" : 0, "youth" :0,"child": 1,"seatInfant": 1, "lapInfant": 1
+        },
+        "departure": "September 22",
+        "arrival": "October 22",
+        "departureDate":"Thu 9/22",
+        "arrivalDate":"Sat 10/22"
+      },
+      "errorMessage":{
+        "adultsErrorMessage":"Searches cannot have more than 9 adults",
+        "lapSearchErr":"Searches cannot have more lap infants than adults",
+        "searchesErrorMessage":"Searches cannot have more than 7 children",
+        "studentErrorMessage":"Student validation required"
+      },
+      "multiple":{
+        "flights":"LHE-ISB; ISB-KHI; KHI-LHE",
+        "dates":"Sep 22, Oct 22, Nov 22"
+      }
+    
+   
+   }
+  }
+  
+        
+    
