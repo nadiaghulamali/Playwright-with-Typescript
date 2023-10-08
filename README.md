@@ -1,6 +1,6 @@
 # Playwright with TypeScript Automation Framework
 
-Welcome to the Playwright with TypeScript Automation Framework! This framework is designed for automating web interactions using [Playwright](https://playwright.dev/), a powerful browser automation tool, and TypeScript. You'll find automated tests for an Traveler app.
+Welcome to the Playwright with TypeScript Automation Framework! This framework is designed for automating web interactions using [Playwright](https://playwright.dev/), a powerful browser automation tool, and TypeScript. You'll find automated tests for a Traveler app.
 
 ## Project Structure
 
